@@ -5,7 +5,7 @@ div {
     transition: width 2s, height 2s, transform 2s;
     color: white;
     margin-bottom: 10px;
-    transition-delay: 1s;
+    transition-delay: 2s;
 }
 #div1 {
     transition-timing-function: linear;
@@ -40,6 +40,7 @@ div:hover {
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
+    
 }
 @keyframes example {
     0%   {background-color: red; left:0px; top: 0px;}
