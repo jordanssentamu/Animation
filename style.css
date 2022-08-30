@@ -41,6 +41,7 @@ div:hover {
     animation-duration: 4s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
     
 }
 @keyframes example {
