@@ -39,6 +39,7 @@ div:hover {
     position: relative;
     animation-name: example;
     animation-duration: 4s;
+    animation-delay: 2s;
 }
 @keyframes example {
     0%   {background-color: red; left:0px; top: 0px;}
