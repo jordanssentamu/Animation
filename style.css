@@ -5,6 +5,7 @@ div {
     transition: width 2s;
     color: white;
     margin-bottom: 10px;
+    transition-delay: 1s;
 }
 #div1 {
     transition-timing-function: linear;
