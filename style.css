@@ -2,13 +2,15 @@ div {
     width: 100px;
     height: 100px;
     background: red;
-    transition: width 2s;
+    transition: width 2s, height 2s, transform 2s;
     color: white;
     margin-bottom: 10px;
     transition-delay: 1s;
 }
 #div1 {
     transition-timing-function: linear;
+   
+    
 
 }
 #div2 {
@@ -27,5 +29,7 @@ div {
 
 div:hover {
     width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
 }
 
