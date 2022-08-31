@@ -42,6 +42,7 @@ div:hover {
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
     
     
 }
@@ -62,6 +63,8 @@ div:hover {
     animation-name: mymove;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
   
 
 }
